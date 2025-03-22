@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"no tests here yet\" && exit 1",
     "devStart": "nodemon index.js",
-    "greetMe": "echo 'Hi Amila!' && exit 1"
+    "greetMe": "echo 'Hi Amila!' && exit 1",
+    "start": "node server/index.js"
   },
   "keywords": [],
   "author": "",

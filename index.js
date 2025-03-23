@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json()); // Allow parsing of JSON bodies in requests
 app.use(express.urlencoded({ extended: false })); // Allow parsing of URL-encoded bodies in requests
-app.use("/", todoRouter); // todos or tasks?
+app.use("/", todoRoutes); // todos or tasks?
 const port = process.env.PORT || 3001;
 
 app.listen(port, () => {
